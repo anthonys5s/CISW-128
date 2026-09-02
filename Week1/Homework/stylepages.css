@@ -1,0 +1,58 @@
+body {
+  background-color: #cf2610;
+}
+
+body {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  color: #2592eb;
+  font-size: 4.5rem;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+ol {
+  color: #8a1111;
+  font-size: 1.5rem;
+}
+
+img {
+  position: absolute;
+  top:30%;
+  left:10%;
+}
+
+p {
+  position: absolute;
+  top:20%;
+  left:20%;
+}
+.image1 {
+  position: absolute;
+  top:50%;
+  left:0%;
+}
+
+.image2 {
+  position: absolute;
+  top:35%;
+  left:45%;
+}
+
+.image3 {
+  position: absolute;
+  top:20%;
+  left:45%;
+}
+
+h2 {
+  position: absolute;
+  top:19%;
+  left:50%;
+}
