@@ -4,7 +4,7 @@ body {
 
 #main-header {
   text-align: center;
-  font-size: 10px;
+  font-size: 70px;
 }
 
 body {
@@ -13,12 +13,12 @@ body {
 }
 
 h1 {
-  color: #2592eb;
+  color: #379c1d;
   font-size: 4.5rem;
 }
 
 a {
-  color: #0066cc;
+  color: rgb(100, 28, 28);
   text-decoration: none;
 }
 
@@ -61,3 +61,18 @@ h2 {
   top:19%;
   left:50%;
 }
+
+p3 {
+  margin: 2px;
+  padding: 0.1px;
+  border: 2px solid rgb(7, 22, 233);
+}
+
+a:visited {
+  color: rgb(122, 96, 96);
+}
+
+a:hover {
+  color: aqua;
+}
+
