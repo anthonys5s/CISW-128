@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title> <!-- page title -->
+  <link rel="stylesheet" href="Lab.css">
+</head>
+<body>
+  <h1>Contact Me</h1> <!-- heading text -->
+
+  <form id="contactForm"> <!-- id so script.js can find the form -->
+    <label for="name">Name:</label> <!-- Label text -->
+    <input id="name" type="text" placeholder="Your name" required />
+
+    <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="you@example.com" required />
+
+    <label for="movie">Favorite Movie:</label> <!-- extra input for Part 3 -->
+    <input id="movie" type="text" placeholder="Your favorite movie" />
+
+    <label for="message">Message:</label>
+    <textarea id="message" rows="4" placeholder="Write something..."></textarea>
+
+    <button type="submit">Submit</button> <!-- Button type and text -->
+  </form>
+
+  <section id="result"></section> <!-- Section to display results -->
+
+  <script src="Lab.js"></script> <!-- JS file name -->
+
+</body>
+</html>
