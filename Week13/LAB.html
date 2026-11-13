@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 13 - Form Validation</title>
+
+    <style>
+        .error {
+            color: red;
+        }
+
+        .success {
+            color: green;
+        }
+
+        form {
+            display: grid;
+            gap: 10px;
+            max-width: 400px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Contact Form</h1>
+
+    <form id="contactForm" novalidate>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <p id="nameError" class="error"></p>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="name@example.com" required>
+        <p id="emailError" class="error"></p>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <p id="phoneError" class="error"></p>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="successMessage" class="success"></p>
+
+    <script src="LAB.js"></script>
+</body>
+</html>

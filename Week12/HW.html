@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Night Sign-Up</title>
+  <link rel="stylesheet" href="HW.css">
+</head>
+<body>
+  <h1>Movie Night Sign-Up</h1>
+
+  <form id="signupForm">
+    <label for="name">Name</label>
+    <input type="text" id="name" required>
+
+    <label for="guests">Number of Guests</label>
+    <input type="number" id="guests" min="0" value="0" required>
+
+    <label for="genre">Favorite Genre</label>
+    <select id="genre" required>
+      <option value="">Choose a genre</option>
+      <option value="Comedy">Comedy</option>
+      <option value="Action">Action</option>
+      <option value="Horror">Horror</option>
+    </select>
+
+    <p>Seating</p>
+    <label><input type="radio" name="seating" value="Front" required> Front</label>
+    <label><input type="radio" name="seating" value="Middle"> Middle</label>
+    <label><input type="radio" name="seating" value="Back"> Back</label>
+
+    <label for="suggestions">Movie Suggestions</label>
+    <textarea id="suggestions"></textarea>
+
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <section id="results"></section>
+
+  <script src="HW.js"></script>
+</body>
+</html>
